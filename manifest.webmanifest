@@ -4,6 +4,7 @@
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
+    "theme_color": "#0e90d2",
     "lang": "zh-CN",
     "scope": "/",
     "description": "网络面板(NetworkPanel)是一个在线流量消耗器，可以测试您的网速，监测您的网络环境，提供丰富测试节点，并且长期维护更新",
@@ -11,7 +12,20 @@
         {
             "src": "./icon.png",
             "sizes": "144x144",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./icon-fill.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./icon-fill.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ]
 }
